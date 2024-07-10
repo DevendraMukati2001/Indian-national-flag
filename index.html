@@ -60,12 +60,11 @@
             padding-top: 40px;
             background-color: black;
             border-radius: 2px;
-            height: 350px;
-            width: 1650px;
             display: flex;
             justify-content: center;
             align-items: flex-start;
             height: 100vh;
+            width:100vw;
             position: relative;
         }
 
@@ -212,24 +211,28 @@
             }
         }
 
-        .stair {
+        /* .stair {
             width: 250px;
             height: 20px;
             background-color: brown;
             position: absolute;
-            bottom: 160px;
+            justify-content: end;
+            display: flex;
+            flex-wrap: wrap;
             left: calc(38% - 75px); /* Center the second stair relative to the pole */
-        }
+        
 
-        .stair1 {
+       /* .stair1 {
             width: 550px;
             height: 20px;
             border-top: white 2px dotted;
             background-color: brown;
             position: absolute;
-            bottom: 140px;
+            justify-content: end;
+            display: flex;
+            flex-wrap: wrap;
             left: calc(30% - 75px); /* Center the first stair relative to the pole */
-        }
+        
     </style>
 </head>
 
@@ -257,12 +260,10 @@
                     <span class="line"></span>
                     <span class="line"></span>
                 </div>
-            </div>
+         </div>
+            <div class="bottom"></div>
             <div class="stair"></div>
         <div class="stair1"></div>
-            <div class="bottom"></div>
-        </div>
-        
     </div>
 </body>
 
